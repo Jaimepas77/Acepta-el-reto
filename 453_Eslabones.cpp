@@ -17,12 +17,6 @@ int main() {
 		}
 	
 		int padre = -1;
-		// for(int i = 1; i <= e; i++) {
-			// if(pred[i-1] == -1) {
-				// padre = i;
-				// break;
-			// }
-		// }
 		
 		bool todas = true;
 		vector<bool> visto(e, false);
