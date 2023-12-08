@@ -6,3 +6,7 @@
 *.bat
 *.py
 *.pdf
+
+# Folders
+users/
+.idea/
