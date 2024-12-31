@@ -11,6 +11,8 @@ int main()
 	int z;
 	cin >> z;
 	while(z--) {
-		
+		int n;
+		 cin >> n;
+		 cout << n*4 << '\n';
 	}
 }

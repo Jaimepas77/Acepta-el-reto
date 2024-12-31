@@ -8,9 +8,11 @@ using lli = long long int;
 
 int main()
 {
-	int z;
-	cin >> z;
-	while(z--) {
+	int z, y;
+	cin >> z >> y;
+	while(z!= 0) {
+		cout << "[" << z + y*74 << " .. " << z + y*79 << "]\n";
 		
+		cin >> z >> y;
 	}
 }
